@@ -1,0 +1,9 @@
+amqp==5.2.0
+billiard==4.2.0
+celery==5.4.0
+kombu==5.4.0
+python-dateutil==2.9.0.post0
+PyYAML==6.0.2
+six==1.16.0
+vine==5.1.0
+tzdata==2024.1
