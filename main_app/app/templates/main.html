@@ -12,9 +12,9 @@
         <form action="/" method="post" class="mt-4">
             <div class="mb-3">
                 <label for="task_count" class="form-label">Number of Tasks:</label>
-                <input type="number" id="task_count" name="task_count" class="form-control" required>
+                <input type="number" id="task_count" name="task_count" class="form-control" required min="1" step="1">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">ok</button>
         </form>
 
         {% if task_ids %}
